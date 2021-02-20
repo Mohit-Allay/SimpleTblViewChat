@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC43283583238DE1243A347 /* Pods_SimpleTblViewChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3757F3C8315F1DBBD04EBA52 /* Pods_SimpleTblViewChatTests.framework */; };
+		118F1E80FE62D7BBF2DFDE2C /* Pods_SimpleTblViewChat_SimpleTblViewChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C7B886D35405A146BF04F2 /* Pods_SimpleTblViewChat_SimpleTblViewChatUITests.framework */; };
+		DC0CF636A035604122EC71E8 /* Pods_SimpleTblViewChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2195BC5C6A0D5EC1267BFA6B /* Pods_SimpleTblViewChat.framework */; };
+		E4959CE625E0D70E002EF81A /* ChatTxtTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4959CE525E0D70E002EF81A /* ChatTxtTblCell.swift */; };
 		E49961A425E0228A0018FBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49961A325E0228A0018FBF5 /* AppDelegate.swift */; };
 		E49961A625E0228A0018FBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49961A525E0228A0018FBF5 /* SceneDelegate.swift */; };
 		E49961A825E0228A0018FBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49961A725E0228A0018FBF5 /* ViewController.swift */; };
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16BF4E777015A46C63E899C8 /* Pods-SimpleTblViewChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTblViewChat.debug.xcconfig"; path = "Target Support Files/Pods-SimpleTblViewChat/Pods-SimpleTblViewChat.debug.xcconfig"; sourceTree = "<group>"; };
+		2195BC5C6A0D5EC1267BFA6B /* Pods_SimpleTblViewChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTblViewChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3757F3C8315F1DBBD04EBA52 /* Pods_SimpleTblViewChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTblViewChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C59D6073D857DA600148D6C /* Pods-SimpleTblViewChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTblViewChat.release.xcconfig"; path = "Target Support Files/Pods-SimpleTblViewChat/Pods-SimpleTblViewChat.release.xcconfig"; sourceTree = "<group>"; };
+		957351A878FB664ADD1CC9E5 /* Pods-SimpleTblViewChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTblViewChatTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleTblViewChatTests/Pods-SimpleTblViewChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB3583A4B46C436E0135739 /* Pods-SimpleTblViewChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTblViewChatTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleTblViewChatTests/Pods-SimpleTblViewChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8C7B886D35405A146BF04F2 /* Pods_SimpleTblViewChat_SimpleTblViewChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTblViewChat_SimpleTblViewChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31D7F9B08364C29771AA465 /* Pods-SimpleTblViewChat-SimpleTblViewChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTblViewChat-SimpleTblViewChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleTblViewChat-SimpleTblViewChatUITests/Pods-SimpleTblViewChat-SimpleTblViewChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDAB504B747845E995A8C12C /* Pods-SimpleTblViewChat-SimpleTblViewChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTblViewChat-SimpleTblViewChatUITests.release.xcconfig"; path = "Target Support Files/Pods-SimpleTblViewChat-SimpleTblViewChatUITests/Pods-SimpleTblViewChat-SimpleTblViewChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4959CE525E0D70E002EF81A /* ChatTxtTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTxtTblCell.swift; sourceTree = "<group>"; };
 		E49961A025E0228A0018FBF5 /* SimpleTblViewChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTblViewChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49961A325E0228A0018FBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E49961A525E0228A0018FBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0CF636A035604122EC71E8 /* Pods_SimpleTblViewChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC43283583238DE1243A347 /* Pods_SimpleTblViewChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118F1E80FE62D7BBF2DFDE2C /* Pods_SimpleTblViewChat_SimpleTblViewChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1D58ADF084593C748ADB6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16BF4E777015A46C63E899C8 /* Pods-SimpleTblViewChat.debug.xcconfig */,
+				8C59D6073D857DA600148D6C /* Pods-SimpleTblViewChat.release.xcconfig */,
+				C31D7F9B08364C29771AA465 /* Pods-SimpleTblViewChat-SimpleTblViewChatUITests.debug.xcconfig */,
+				CDAB504B747845E995A8C12C /* Pods-SimpleTblViewChat-SimpleTblViewChatUITests.release.xcconfig */,
+				957351A878FB664ADD1CC9E5 /* Pods-SimpleTblViewChatTests.debug.xcconfig */,
+				9FB3583A4B46C436E0135739 /* Pods-SimpleTblViewChatTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B528E7368788212E3D8AF4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2195BC5C6A0D5EC1267BFA6B /* Pods_SimpleTblViewChat.framework */,
+				A8C7B886D35405A146BF04F2 /* Pods_SimpleTblViewChat_SimpleTblViewChatUITests.framework */,
+				3757F3C8315F1DBBD04EBA52 /* Pods_SimpleTblViewChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E499619725E0228A0018FBF5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				E49961B925E0228E0018FBF5 /* SimpleTblViewChatTests */,
 				E49961C425E0228E0018FBF5 /* SimpleTblViewChatUITests */,
 				E49961A125E0228A0018FBF5 /* Products */,
+				3B1D58ADF084593C748ADB6C /* Pods */,
+				3B528E7368788212E3D8AF4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +146,7 @@
 				E49961A525E0228A0018FBF5 /* SceneDelegate.swift */,
 				E49961A725E0228A0018FBF5 /* ViewController.swift */,
 				E49961A925E0228A0018FBF5 /* Main.storyboard */,
+				E4959CE525E0D70E002EF81A /* ChatTxtTblCell.swift */,
 				E49961AC25E0228E0018FBF5 /* Assets.xcassets */,
 				E49961AE25E0228E0018FBF5 /* LaunchScreen.storyboard */,
 				E49961B125E0228E0018FBF5 /* Info.plist */,
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49961CA25E0228E0018FBF5 /* Build configuration list for PBXNativeTarget "SimpleTblViewChat" */;
 			buildPhases = (
+				3E604521CFE5F9FEAE68CBD3 /* [CP] Check Pods Manifest.lock */,
 				E499619C25E0228A0018FBF5 /* Sources */,
 				E499619D25E0228A0018FBF5 /* Frameworks */,
 				E499619E25E0228A0018FBF5 /* Resources */,
+				2E67DBA33B354C17FD9DEA37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49961CD25E0228E0018FBF5 /* Build configuration list for PBXNativeTarget "SimpleTblViewChatTests" */;
 			buildPhases = (
+				B78A2C82D4160D797AD9D9F6 /* [CP] Check Pods Manifest.lock */,
 				E49961B225E0228E0018FBF5 /* Sources */,
 				E49961B325E0228E0018FBF5 /* Frameworks */,
 				E49961B425E0228E0018FBF5 /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49961D025E0228E0018FBF5 /* Build configuration list for PBXNativeTarget "SimpleTblViewChatUITests" */;
 			buildPhases = (
+				D321864223200B8A2DF1D2AB /* [CP] Check Pods Manifest.lock */,
 				E49961BD25E0228E0018FBF5 /* Sources */,
 				E49961BE25E0228E0018FBF5 /* Frameworks */,
 				E49961BF25E0228E0018FBF5 /* Resources */,
+				2920C7BE6282872F54050846 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +302,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2920C7BE6282872F54050846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleTblViewChat-SimpleTblViewChatUITests/Pods-SimpleTblViewChat-SimpleTblViewChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleTblViewChat-SimpleTblViewChatUITests/Pods-SimpleTblViewChat-SimpleTblViewChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleTblViewChat-SimpleTblViewChatUITests/Pods-SimpleTblViewChat-SimpleTblViewChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E67DBA33B354C17FD9DEA37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleTblViewChat/Pods-SimpleTblViewChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleTblViewChat/Pods-SimpleTblViewChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleTblViewChat/Pods-SimpleTblViewChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E604521CFE5F9FEAE68CBD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTblViewChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78A2C82D4160D797AD9D9F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTblViewChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D321864223200B8A2DF1D2AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTblViewChat-SimpleTblViewChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E499619C25E0228A0018FBF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E49961A825E0228A0018FBF5 /* ViewController.swift in Sources */,
+				E4959CE625E0D70E002EF81A /* ChatTxtTblCell.swift in Sources */,
 				E49961A425E0228A0018FBF5 /* AppDelegate.swift in Sources */,
 				E49961A625E0228A0018FBF5 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +586,7 @@
 		};
 		E49961CB25E0228E0018FBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BF4E777015A46C63E899C8 /* Pods-SimpleTblViewChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +605,7 @@
 		};
 		E49961CC25E0228E0018FBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C59D6073D857DA600148D6C /* Pods-SimpleTblViewChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +624,7 @@
 		};
 		E49961CE25E0228E0018FBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957351A878FB664ADD1CC9E5 /* Pods-SimpleTblViewChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +646,7 @@
 		};
 		E49961CF25E0228E0018FBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB3583A4B46C436E0135739 /* Pods-SimpleTblViewChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +668,7 @@
 		};
 		E49961D125E0228E0018FBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31D7F9B08364C29771AA465 /* Pods-SimpleTblViewChat-SimpleTblViewChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +688,7 @@
 		};
 		E49961D225E0228E0018FBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAB504B747845E995A8C12C /* Pods-SimpleTblViewChat-SimpleTblViewChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

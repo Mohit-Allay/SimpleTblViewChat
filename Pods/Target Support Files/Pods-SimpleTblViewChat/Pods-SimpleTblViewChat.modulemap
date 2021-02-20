@@ -1,0 +1,6 @@
+framework module Pods_SimpleTblViewChat {
+  umbrella header "Pods-SimpleTblViewChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
