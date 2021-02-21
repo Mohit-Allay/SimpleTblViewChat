@@ -21,21 +21,35 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <view key="tableFooterView" contentMode="scaleToFill" id="r7w-wH-Yj7">
-                                    <rect key="frame" x="0.0" y="109" width="394" height="20"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="Z4z-xz-SzX">
+                                    <rect key="frame" x="0.0" y="0.0" width="394" height="50"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZnQ-ne-5bT">
+                                            <rect key="frame" x="5" y="5" width="100" height="40"/>
+                                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="SdP-qJ-MgU"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="ZnQ-ne-5bT" firstAttribute="top" secondItem="Z4z-xz-SzX" secondAttribute="top" constant="5" id="cGb-lS-kDA"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZnQ-ne-5bT" secondAttribute="bottom" constant="5" id="n7d-7V-fWi"/>
+                                        <constraint firstItem="ZnQ-ne-5bT" firstAttribute="leading" secondItem="Z4z-xz-SzX" secondAttribute="leading" constant="5" id="yt6-bD-Nh3"/>
+                                    </constraints>
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatTxtTblCell" id="3Gk-N2-b4x" customClass="ChatTxtTblCell" customModule="SimpleTblViewChat" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="394" height="53"/>
+                                        <rect key="frame" x="0.0" y="78" width="394" height="53"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Gk-N2-b4x" id="XKn-xy-wGy">
                                             <rect key="frame" x="0.0" y="0.0" width="394" height="53"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Txt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0x-8G-2Pr">
-                                                    <rect key="frame" x="30" y="16" width="334" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Txt" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0x-8G-2Pr">
+                                                    <rect key="frame" x="340" y="16" width="24" height="21"/>
                                                     <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -47,7 +61,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="a0x-8G-2Pr" secondAttribute="bottom" constant="5" id="6oq-jV-COf"/>
                                                 <constraint firstItem="a0x-8G-2Pr" firstAttribute="top" secondItem="XKn-xy-wGy" secondAttribute="topMargin" constant="5" id="Aw9-S4-f8P"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="a0x-8G-2Pr" secondAttribute="trailing" constant="10" id="Ur9-8M-7YY"/>
-                                                <constraint firstItem="a0x-8G-2Pr" firstAttribute="leading" secondItem="XKn-xy-wGy" secondAttribute="leadingMargin" constant="10" id="s9c-qI-4EE"/>
+                                                <constraint firstItem="a0x-8G-2Pr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XKn-xy-wGy" secondAttribute="leadingMargin" constant="10" id="s9c-qI-4EE"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -97,6 +111,7 @@
                         <outlet property="btnSend" destination="J5v-xO-aBE" id="7u6-Q2-No5"/>
                         <outlet property="tblViewChat" destination="25x-eL-1Py" id="zZv-Ik-1nK"/>
                         <outlet property="txfMsgInput" destination="niR-vD-Rd6" id="V2D-aS-lKM"/>
+                        <outlet property="txfMsgInputBCons" destination="Qzc-j5-aZ7" id="Nrv-J1-CdA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -111,8 +126,8 @@
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
